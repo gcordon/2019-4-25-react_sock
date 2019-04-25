@@ -1,0 +1,51 @@
+2018-04-12T08:12:20.346+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2018-04-12T08:12:20.355+0800 I STORAGE  [thread1] Service running
+2018-04-12T08:12:20.355+0800 I CONTROL  [initandlisten] MongoDB starting : pid=3748 port=27017 dbpath=c:\data\db 64-bit host=DESKTOP-TGBMORI
+2018-04-12T08:12:20.355+0800 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2018-04-12T08:12:20.355+0800 I CONTROL  [initandlisten] db version v3.2.18-21-g97af1fa
+2018-04-12T08:12:20.355+0800 I CONTROL  [initandlisten] git version: 97af1fa552e61721061fd2e85494aeeb81c16b0a
+2018-04-12T08:12:20.355+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-04-12T08:12:20.355+0800 I CONTROL  [initandlisten] modules: none
+2018-04-12T08:12:20.356+0800 I CONTROL  [initandlisten] build environment:
+2018-04-12T08:12:20.356+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2018-04-12T08:12:20.356+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-04-12T08:12:20.356+0800 I CONTROL  [initandlisten] options: { config: "C:\mongodb\mongod.cfg", service: true, storage: { dbPath: "c:\data\db" }, systemLog: { destination: "file", path: "c:\data\log\mongod.log" } }
+2018-04-12T08:12:20.373+0800 I -        [initandlisten] Detected data files in c:\data\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-04-12T08:12:20.378+0800 W -        [initandlisten] Detected unclean shutdown - c:\data\db\mongod.lock is not empty.
+2018-04-12T08:12:20.379+0800 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2018-04-12T08:12:20.390+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-04-12T08:12:20.637+0800 I STORAGE  [initandlisten] WiredTiger [1523491940:636228][3748:140736630436608], txn-recover: Main recovery loop: starting at 1/23552
+2018-04-12T08:12:20.664+0800 I STORAGE  [initandlisten] WiredTiger [1523491940:664653][3748:140736630436608], txn-recover: Recovering log 1 through 2
+2018-04-12T08:12:20.745+0800 I STORAGE  [initandlisten] WiredTiger [1523491940:745094][3748:140736630436608], txn-recover: Recovering log 2 through 2
+2018-04-12T08:12:21.154+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2018-04-12T08:12:22.923+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'c:/data/db/diagnostic.data'
+2018-04-12T08:12:22.923+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-04-12T08:12:23.014+0800 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+2018-04-12T09:13:29.095+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:8001 #1 (1 connection now open)
+2018-04-12T09:15:50.652+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:8305 #2 (2 connections now open)
+2018-04-12T09:15:51.517+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:8309 #3 (3 connections now open)
+2018-04-12T09:15:55.782+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:8322 #4 (4 connections now open)
+2018-04-12T09:15:55.812+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:8323 #5 (5 connections now open)
+2018-04-12T09:16:06.005+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:8361 #6 (6 connections now open)
+2018-04-12T09:16:06.046+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:8362 #7 (7 connections now open)
+2018-04-12T09:16:09.318+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:8370 #8 (8 connections now open)
+2018-04-12T09:16:09.349+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:8371 #9 (9 connections now open)
+2018-04-12T09:16:16.413+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:8403 #10 (10 connections now open)
+2018-04-12T09:16:16.453+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:8404 #11 (11 connections now open)
+2018-04-12T09:25:03.784+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:9275 #12 (12 connections now open)
+2018-04-12T09:38:40.340+0800 I NETWORK  [conn4] end connection 127.0.0.1:8322 (11 connections now open)
+2018-04-12T09:38:40.341+0800 I NETWORK  [conn6] end connection 127.0.0.1:8361 (10 connections now open)
+2018-04-12T09:38:40.342+0800 I NETWORK  [conn5] end connection 127.0.0.1:8323 (9 connections now open)
+2018-04-12T09:38:40.343+0800 I NETWORK  [conn8] end connection 127.0.0.1:8370 (8 connections now open)
+2018-04-12T09:38:40.343+0800 I NETWORK  [conn7] end connection 127.0.0.1:8362 (7 connections now open)
+2018-04-12T09:38:40.345+0800 I NETWORK  [conn10] end connection 127.0.0.1:8403 (6 connections now open)
+2018-04-12T09:38:40.346+0800 I NETWORK  [conn9] end connection 127.0.0.1:8371 (5 connections now open)
+2018-04-12T09:38:40.347+0800 I NETWORK  [conn11] end connection 127.0.0.1:8404 (4 connections now open)
+2018-04-12T09:38:40.483+0800 I NETWORK  [conn2] end connection 127.0.0.1:8305 (3 connections now open)
+2018-04-12T09:38:40.483+0800 I NETWORK  [conn3] end connection 127.0.0.1:8309 (3 connections now open)
+2018-04-12T16:02:30.917+0800 I NETWORK  [conn1] end connection 127.0.0.1:8001 (1 connection now open)
+2018-04-12T16:02:30.917+0800 I NETWORK  [conn12] end connection 127.0.0.1:9275 (1 connection now open)
+2018-04-12T16:02:37.926+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:11908 #13 (1 connection now open)
+2018-04-12T16:03:48.527+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:12132 #14 (2 connections now open)
+2018-04-12T16:40:16.566+0800 I NETWORK  [conn14] end connection 127.0.0.1:12132 (1 connection now open)
+2018-04-12T16:40:16.567+0800 I NETWORK  [conn13] end connection 127.0.0.1:11908 (0 connections now open)

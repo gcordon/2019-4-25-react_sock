@@ -1,0 +1,26 @@
+2018-04-11T18:53:23.648+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2018-04-11T18:53:23.648+0800 I STORAGE  [thread1] Service running
+2018-04-11T18:53:23.649+0800 I CONTROL  [initandlisten] MongoDB starting : pid=7124 port=27017 dbpath=c:\data\db 64-bit host=DESKTOP-TGBMORI
+2018-04-11T18:53:23.649+0800 I CONTROL  [initandlisten] targetMinOS: Windows Vista/Windows Server 2008
+2018-04-11T18:53:23.649+0800 I CONTROL  [initandlisten] db version v3.2.18-21-g97af1fa
+2018-04-11T18:53:23.649+0800 I CONTROL  [initandlisten] git version: 97af1fa552e61721061fd2e85494aeeb81c16b0a
+2018-04-11T18:53:23.649+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-04-11T18:53:23.649+0800 I CONTROL  [initandlisten] modules: none
+2018-04-11T18:53:23.649+0800 I CONTROL  [initandlisten] build environment:
+2018-04-11T18:53:23.649+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2018-04-11T18:53:23.649+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-04-11T18:53:23.649+0800 I CONTROL  [initandlisten] options: { config: "C:\mongodb\mongod.cfg", service: true, storage: { dbPath: "c:\data\db" }, systemLog: { destination: "file", path: "c:\data\log\mongod.log" } }
+2018-04-11T18:53:23.651+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-04-11T18:53:23.718+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2018-04-11T18:53:25.906+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'c:/data/db/diagnostic.data'
+2018-04-11T18:53:25.906+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-04-11T18:54:00.932+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:2068 #1 (1 connection now open)
+2018-04-11T18:58:16.543+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:2181 #2 (2 connections now open)
+2018-04-11T18:58:20.048+0800 I NETWORK  [conn2] end connection 127.0.0.1:2181 (1 connection now open)
+2018-04-11T18:59:28.186+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:2201 #3 (2 connections now open)
+2018-04-11T19:01:12.710+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:2309 #4 (3 connections now open)
+2018-04-11T19:11:27.385+0800 I NETWORK  [conn1] end connection 127.0.0.1:2068 (2 connections now open)
+2018-04-11T19:11:37.007+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:3094 #5 (3 connections now open)
+2018-04-11T19:17:42.752+0800 I NETWORK  [conn4] end connection 127.0.0.1:2309 (2 connections now open)
+2018-04-11T19:17:42.752+0800 I NETWORK  [conn3] end connection 127.0.0.1:2201 (1 connection now open)
+2018-04-11T19:17:42.878+0800 I NETWORK  [conn5] end connection 127.0.0.1:3094 (0 connections now open)
